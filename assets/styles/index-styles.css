@@ -10,8 +10,10 @@ html {
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;
-    min-height: 100vh;
+    padding: 0 10px;
+    box-sizing: border-box;
 }
+
 h1 {
     text-align: center;
     font-size: 46px;
@@ -59,7 +61,8 @@ header {
     background-color: rgba(128, 128, 128, 0.555);
     border-radius: 10px;
     margin: 20px 0;
-    width: 1500px;
+    width: 95%;
+    max-width: 1500px;
 }
 
 article {
@@ -137,8 +140,8 @@ article {
     align-items: flex-start;
     gap: 15px;
     flex-direction: row;
-    width: 800px;
-    max-width: 95%;
+    width: 95%;
+    max-width: 800px;
     margin: 15px 0;
 }
 
