@@ -1,0 +1,96 @@
+html {
+    background-color: rgba(74, 247, 238, 0.151);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 46px;
+    font: bold;
+    color: rgba(0, 0, 0, 0.295);
+    transition: transform 0.2s ease-in-out;
+}
+
+h1:hover {
+    transform: scale(1.05);
+}
+
+header {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.headerbutton {
+    appearance: none;
+    margin: 0px 10px;
+    padding: 15px 35px;
+    border: 3px solid rgba(193, 193, 193, 0.571) !important;
+    border-radius: 15px;
+    font-size: large;
+    border: 10px;
+    background-color: rgb(255, 255, 255);
+    transition: transform 0.2s ease-in-out;
+}
+
+.headerbutton:hover {
+    transform: scale(1.05)
+}
+
+.divider {
+    border: none;
+    height: 5px;
+    background-color: rgba(128, 128, 128, 0.555);
+    border-radius: 10px;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.aboutme {
+    border: 1.5px rgb(190, 190, 190) solid;
+    border-radius: 5px;
+    background-color: rgba(87, 216, 255, 0.235);
+    text-align: center;
+    color: rgba(0, 0, 0, 0.751);
+    max-width: 500px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.aboutme:hover {
+    transform: scale(1.025)
+}
+
+.nobluelink:link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.808)
+}
+
+p {
+    font-style: normal;
+}
+
+li {
+    margin: 5px;
+    font-size: 18px;
+}
+
+.list_learning {
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+    padding: 0 0 0 5px;
+}
+
+#learning {
+    margin-left: 510px;
+    width: 400px;
+}
+
+article {
+    flex: 1;
+}
+
+.idk {
+    position: relative;
+    top: -200px;
+    margin-bottom: 50px;
+}
