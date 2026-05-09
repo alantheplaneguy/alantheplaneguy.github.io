@@ -28,6 +28,13 @@ header {
     align-items: center;
     justify-content: center;
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(87, 216, 255, 0.406);
+    padding: 10px 0,
 }
 
 .headerbutton {
@@ -158,4 +165,35 @@ article {
 
 .linkproject:hover {
     transform: scale(1.2);
+}
+
+.tiktok-embed {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.tiktokvids {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactmelink {
+    margin: 5px 10px;
+    width: 750px;
+    height: 50px;
+    border: 3px solid rgba(193, 193, 193, 0.571) !important;
+    border-radius: 15px;
+    background-color: white;
+    transition: transform 0.2s ease-in-out;
+    font-size: 28px;
+}
+
+.contactmelink:hover {
+    transform: scale(1.05);
 }
