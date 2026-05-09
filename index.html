@@ -9,37 +9,71 @@
 </head>
 <body>
     <header>
-        <button class="headerbutton" id="aboutme"><a href=".aboutmesection">about me</a></button>
-        <button class="headerbutton" id="projects"><a href=".aboutmesection">about me</a></button>
-        <button class="headerbutton" id="contact"><a href=".aboutmesection">about me</a></button>
-        <button class="headerbutton" id="links"><a href=".aboutmesection" class="nobluelink">about me</a></button>
+        <button class="headerbutton" id="aboutme"><a href="#aboutmesection" class="nobluelink">about me</a></button>
+        <button class="headerbutton" id="projects"><a href="#myprojectspage" class="nobluelink">my projects</a></button>
+        <button class="headerbutton" id="featuredvid"><a href="#featuredvidspage" class="nobluelink">featured vids</a></button>
+        <button class="headerbutton" id="contact"><a href=".aboutmesection" class="nobluelink">contact me</a></button>
+        <button class="headerbutton" id="links"><a href="/links.html" class="nobluelink">my links</a></button>
     </header>
     <main>
-        <h1>alan_theplaneguy.github.io</h1>
-        <hr class="divider">
-        <section class="aboutmesection">
-            <article id="aboutme" class="aboutme">
-                <h2>about me</h2>
-                <p>hi, my name is alan!</p>
-                <p>i live in poland, i play games, code games and code this website too!</p>
-                <p>my hobby is airplanes, my favourite plane is the Boeing 737</p>
-                <p>my favourite game is <a class="nobluelink"href="https://geometrydash.com/"><b></b>geometry dash</b></a>, i am currently learning:</p>
-            </article>
-            <article id="learning" class="aboutme">
-                <h2>i am currently learning:</h2>
-                <ul class="list_learning">
-                    <li><image src="/assets/icons/html-icon.svg" width="10"> HTML</image></li>
-                    <li><image src="/assets/icons/css-icon.svg" width="10"> CSS</image></li>
-                    <li><image src="/assets/icons/lua-code-file-black-icon.svg" width="10"> Luau</image></li>
-                    <li><image src="/assets/icons/c-plus-plus-programming-language-icon.svg" width="10"> and C++</image></li>
-                </ul>
-            </article>
-            <article class="aboutme" id="idk">
-                <h2>idk what to add here</h2>
-            </article>
-        </section>
-        <hr class="divider">
-        <section class=""
+        <div class="main-container">
+            <h1>alan_theplaneguy.github.io</h1>
+            <hr class="divider">
+            <section id="aboutmesection" class="aboutmesection">
+                <article id="aboutme" class="aboutme">
+                    <h2>about me</h2>
+                    <p>hi, my name is alan!</p>
+                    <p>i live in poland, i play games, code games and code this website too!</p>
+                    <p>my hobby is airplanes, my favourite plane is the Boeing 737</p>
+                    <p>my favourite game is <a class="nobluelink"href="https://geometrydash.com/"><b></b>geometry dash</b></a></p>
+                </article>
+                <article id="learning" class="aboutme">
+                    <h2>i am currently learning:</h2>
+                    <ul class="list_learning">
+                       <li><image src="/assets/icons/html-icon.svg" width="10"> HTML</image></li>
+                        <li><image src="/assets/icons/css-icon.svg" width="10"> CSS</image></li>
+                        <li><image src="/assets/icons/lua-code-file-black-icon.svg" width="10"> Luau</image></li>
+                        <li><image src="/assets/icons/c-plus-plus-programming-language-icon.svg" width="10"> and C++</image></li>
+                    </ul>
+                </article>
+                <article class="aboutme" id="idk">
+                    <h2>idk what to add here</h2>
+                </article>
+            </section>
+            <hr class="divider">
+            <section class="myprojectspage" id="myprojectspage">
+                <H1>my projects</H1>
+                <article class="project">
+                    <image src="assets/icons/logo 2.png" width="250px" class="projectlogo"></image>
+                    <div class="projectinfo">
+                        <h2 class="projectname">Drawskie Jazdy</h2>
+                        <p>Drawskie Jazdy is a game on roblox, in which you drive all around the Drawski Region.</p>
+                        <div class="divlinks">
+                            <a href="https://discord.gg/pBj2AbWa4a" class="linkproject" target="_blank"><image src="/assets/icons/discord-round-color-icon.svg" width="50"></image></a>
+                            <a href="https://www.roblox.com/games/13662614888/Drawskie-Jazdy" class="linkproject" target="_blank"><image src="assets/icons/roblox-icon.svg" width="50"></image></a>
+                            <a href="https://x.com/drjazdyofficial" class="linkproject" target="_blank"><image src="assets/icons/x-social-media-black-icon.svg" width="50"></image></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project">
+                    <image src="assets/icons/alanzdeathphrases (1).png" width="250px" class="projectlogo"></image>
+                    <div class="projectinfo">
+                        <h2 class="projectname">alanz Death Phrases!</h2>
+                        <p>alanz Death Phrases is a mod for GMod which adds some simple death phrases in chat.</p>
+                        <div class="divlinks">
+                            <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3716630164" class="linkproject" target="_blank"><image src="/assets/icons/steam-icon.svg" width="50"></image></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project">
+                    <image src="assets/icons/favicon (1).ico" width="250px" class="projectlogo"></image>
+                    <div class="projectinfo">
+                        <h2 class="projectname">alantheplaneguy.github.io</h2>
+                        <p>The website your are currently on!</p>
+                    </div>
+                </article>
+            </section>
+        </div>
     </main>
 </body>
 </html>

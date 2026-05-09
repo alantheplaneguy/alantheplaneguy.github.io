@@ -2,6 +2,16 @@ html {
     background-color: rgba(74, 247, 238, 0.151);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
 h1 {
     text-align: center;
     font-size: 46px;
@@ -42,24 +52,34 @@ header {
     background-color: rgba(128, 128, 128, 0.555);
     border-radius: 10px;
     margin: 20px 0;
-    width: 100%;
+    width: 1500px;
 }
 
-.aboutme {
+article {
     border: 1.5px rgb(190, 190, 190) solid;
-    border-radius: 5px;
+    border-radius: 7.5px;
     background-color: rgba(87, 216, 255, 0.235);
     text-align: center;
     color: rgba(0, 0, 0, 0.751);
     max-width: 500px;
     transition: transform 0.2s ease-in-out;
+    
 }
 
-.aboutme:hover {
+article:hover {
     transform: scale(1.025)
 }
 
+.aboutme {
+    text-align: center;
+}
+
 .nobluelink:link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.808)
+}
+
+.nobluelink:visited {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.808)
 }
@@ -93,4 +113,49 @@ article {
     position: relative;
     top: -200px;
     margin-bottom: 50px;
+}
+
+.projectlogo {
+    margin: 5px 5px;
+    border-radius: 10px;
+}
+
+.projecttext {
+    text-align: center;
+    display: flex;
+}
+
+.project {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    flex-direction: row;
+    width: 800px;
+    max-width: 95%;
+    margin: 15px 0;
+}
+
+
+.projectname {
+    display: flex;
+}
+
+.projectinfo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.divlinks {
+    display: flex;
+    flex-direction: row;
+}
+
+.linkproject {
+    transition: transform 0.2s;
+    margin: 20px;
+}
+
+.linkproject:hover {
+    transform: scale(1.2);
 }
