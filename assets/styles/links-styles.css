@@ -1,3 +1,8 @@
+html {
+    background-color: rgba(74, 247, 238, 0.151);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 footer {
     background-color: rgba(0, 65, 85, 0.406);
     display: flex;
@@ -7,4 +12,34 @@ footer {
 
 .footerlinks {
     color: rgba(33, 33, 33, 0.571)
+}
+
+h1 {
+    text-align: center;
+    font-size: 46px;
+    font: bold;
+    color: rgba(0, 0, 0, 0.295);
+    transition: transform 0.2s ease-in-out;
+}
+
+h1:hover {
+    transform: scale(1.05);
+}
+
+header {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(87, 216, 255, 0.406);
+    padding: 10px 0,
+}
+
+.main-container {
+    display: flex;
+    
 }
