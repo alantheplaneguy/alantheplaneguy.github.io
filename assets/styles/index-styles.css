@@ -3,6 +3,10 @@ html {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body {
+    padding-top: 80px;
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
@@ -110,19 +114,16 @@ li {
     padding: 0 0 0 5px;
 }
 
-#learning {
-    margin-left: 510px;
-    width: 400px;
-}
-
 article {
     flex: 1;
 }
 
-.idk {
-    position: relative;
-    top: -200px;
-    margin-bottom: 50px;
+.aboutmesection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
 }
 
 .projectlogo {

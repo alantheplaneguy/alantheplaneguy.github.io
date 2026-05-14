@@ -41,5 +41,65 @@ header {
 
 .main-container {
     display: flex;
-    
+    flex-direction: column;
+    text-align: center;
+}
+
+.hr-text {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 3px solid rgba(193, 193, 193, 0.571);
+  border-radius: 5px;
+  line-height: 0.02em;
+  margin: 10px 0 20px;
+  color: rgba(0, 0, 0, 0.295);
+} 
+
+.hr-text span { 
+  background: rgb(227, 254, 252);
+  padding: 0 10px; 
+  font-weight: bold;
+}
+
+.linkbutton {
+    max-width: 800px;
+    width: 800px;
+    height: 75px;
+    border: 3px solid rgba(193, 193, 193, 0.571) !important;
+    border-radius: 25px;
+    font-size: 32px;
+    background-color: white;
+    transition: transform 0.2s ease-in-out;
+    color: rgba(0, 0, 0, 0.808);
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+}
+
+.linkbutton:hover {
+    transform: scale(1.1);
+}
+
+.linkcont {
+    padding-bottom: 25px;
+}
+
+.buttonscontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nobluelink:link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.808)
+}
+
+.nobluelink:visited {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.808)
 }
